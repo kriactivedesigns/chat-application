@@ -1,10 +1,11 @@
 import React from 'react';
+import Home from './components/Home/Home'
 import './App.scss';
 
 function App() {
   return (
     <div className="App">
-      This is a chat application
+      <Home title="Arun"/>
     </div>
   );
 }
